@@ -39,7 +39,7 @@ setup(
     packages=find_packages(exclude=["tests*"]),
     include_package_data=True,
     python_requires=">=3.5",
-    install_requires=["tutor-openedx", "xblock-free-text-response"],
+    install_requires=["tutor-openedx", "git+https://github.com/Stanford-Online/xblock-free-text-response"],
     entry_points={
         "tutor.plugin.v0": [
             "freetextresponse = tutorfreetextresponse.plugin"
